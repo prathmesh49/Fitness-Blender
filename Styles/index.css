@@ -1,4 +1,17 @@
+/* combi class */
 
+.highlight-h2{
+  text-align: center;
+  font-size: 50px;
+}
+.highlight-p{
+    text-align: center;
+    font-size: 20px;
+    width: 30%;
+    margin: auto;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 /* join banner-------*------* */
 #join-banner{
     height: max-content;
@@ -14,6 +27,7 @@
 }
 #joinh2{
     text-align: left;
+    font-size: 50px;
 }
 #joinp{
     font-size: 45px;
@@ -36,7 +50,7 @@ img{
     width: 100%;
 }
 .button-26 {
-    appearance: button;
+    
     background-color: #1652F0;
     border: 1px solid #1652F0;
     border-radius: 2px;
@@ -46,11 +60,8 @@ img{
     font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
     font-size: 25px;
     line-height: 1.15;
-    overflow: visible;
     padding: 12px 16px;
-    position: relative;
     text-align: center;
-    text-transform: none;
     transition: all 80ms ease-in-out;
     user-select: none;
     -webkit-user-select: none;
@@ -91,18 +102,7 @@ img{
     margin: auto;
     
   }
-  h2{
-    text-align: center;
-    font-size: 50px;
-  }
-  p{
-    text-align: center;
-    font-size: 20px;
-    width: 30%;
-    margin: auto;
-    line-height: 30px;
-    margin-bottom: 30px;
-  }
+
  
   .fb-pass>div{
     width: max-content;
@@ -151,3 +151,39 @@ img{
     color: #4296CB;
     font-size: 20px;
  }
+
+ /* bottom cards section   */
+
+ .bottom-cards-section{
+  
+  border: 1px solid red;
+ }
+ .bottom-cards-box{
+  width: 80%;
+  border: 1px solid red;
+  height: max-content;
+  margin: auto;
+  
+
+ }
+ .bottom-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: max-content;
+ }
+ .exclusive-item{
+  position: absolute;
+  overflow-wrap: normal;
+  /* top: 0;
+  right: 0; */
+  background: #3cdbb8;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 20%);
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 0 6px;
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+ }
+ 

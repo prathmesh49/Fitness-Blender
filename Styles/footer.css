@@ -1,0 +1,43 @@
+#footer{
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 200px;
+    background-color: #212432;
+    color: white;
+}
+#dark #anch{
+    
+        background-image: url(https://cloudfront.fitnessblender.com/assets/img/logos/fb-logo-dark.svg);
+        width: 156px;
+        height: 45px;
+        display: block;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        text-indent: -9999px;
+      
+      
+}
+.container{
+    display: flex;
+    height: max-content;
+}
+.footer_nav>ul>li>a{
+    color: #fff;
+   
+}
+.fut_ul{
+    /* vertical-align: middle; */
+    display: block;
+    line-height: 30px;
+
+}
+.footer_nav{
+    display: flex;
+}
+.anch{
+    color: #fff;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
