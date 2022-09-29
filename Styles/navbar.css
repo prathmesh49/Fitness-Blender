@@ -7,14 +7,32 @@ body{
 
 }
 #navbar{
-    height: 150px;
-    padding-left: 200px;
-    padding-right: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    overflow: visible;
+
 }
+.flecs{
+    display: flex;
+    width: max-content;
+    font-size: 13px;
+}
+.nav_bar{
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    background-color: white;
+    color: black;  
+}
+
+.nav_list{
+    align-items: center;
+    justify-content: space-around;
+}
+
 #sign-up{
     display: flex;
     justify-content: space-around;
@@ -37,7 +55,7 @@ a{
 .signin>span{
     display: block;
 }
-#brand >h1 a {
+#brand a {
   background-image: url(https://cloudfront.fitnessblender.com/assets/img/logos/fb-logo.svg);
   width: 156px;
   height: 45px;
@@ -50,3 +68,12 @@ a{
 .hi-text{
     color: #4296CB;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 100px;
+}
+

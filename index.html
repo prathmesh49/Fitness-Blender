@@ -8,109 +8,88 @@
     <script src="https://kit.fontawesome.com/b1dda78bf2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Styles/navbar.css">
     <link rel="stylesheet" href="./Styles/index.css">
-    
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <script src="./Scripts/index.js"></script>
 </head>
-<body>
+<body onScroll="myFunction()">
+   
     <!-- navigation bar  -->
-    <header id="navbar">
-        <div id="brand">
-            <h1>
-                <a href="">fitness blender</a>
-            </h1>
-        </div>
-        <ul class="">
-            <li><a href="">
-                <span>WORKOUT
-                    <i class="fa-sharp fa-solid fa-caret-down">
-                        
-                    </i>
-                    
-                </span>
-
-            </a>
-                
-            </li>
-            <li><a href="">
-                <span>PROGRAMS
-                    <i class="fa-sharp fa-solid fa-caret-down">
-                        
-                    </i>
-                    
-                </span>
-            </a>
-            </li>
-            <li><a href="">
-                <span>HEALTHY LIVING
-                    <i class="fa-sharp fa-solid fa-caret-down">
-                        
-                    </i>
-                    
-                </span>
-            </a>
-            </li>
-            <li><a href="">
-                <span>COMMUNITY
-                    <i class="fa-sharp fa-solid fa-caret-down">
-                        
-                    </i>
-                    
-                </span>
-            </a>
-            </li>
-            <li><a href="">
-                <span>ABOUT
-                    <i class="fa-sharp fa-solid fa-caret-down">
-                        
-                    </i>
-                    
-                </span>
-            </a>
-            </li>
-            <li><a href="">
-                <span>STORE
-                    <i class="fa-sharp fa-solid fa-caret-down">
-                        
-                    </i>
-                    
-                </span>
-            </a>
-            </li>
-            <li><a href="">
-                <span>MEMBERSHIP
-                    <i class="fa-sharp fa-solid fa-caret-down">
-                        
-                    </i>
-                    
-                </span>
-            </a>
-            </li>
-        </ul>
-
-        <div id="menu-controls">
-            <div class="signin">
-                <span class="hi-text">Hi! Sign in</span>
-                <span>MY FITNESS</span>
+    <header id="navbar" class="sticky">
+        <div class="nav_bar">
+            <div id="brand">
+                <h1>
+                    <a href="">fitness blender</a>
+                </h1>
             </div>
-            <div class="search">
-                <a href="">
-                    <span>
-                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <ul class="nav_list">
+                <li><a class="flecs" href="">
+                    <span>WORKOUT 
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+
                     </span>
-                </a>
-            </div>
-            <div class="shop">
-                <a href="">
-                    <span>
-                        <i class="fa-sharp fa-solid fa-bag-shopping"></i> 
-                    </span>
-                </a>
-            </div>
 
+                </a>
+                    
+                </li>
+                <li><a class="flecs" href="">
+                    <span>PROGRAMS</span>
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                </a>
+                </li>
+                <li><a class="flecs" href="">
+                    <span>HEALTHY LIVING</span>
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </a>
+                </li>
+                <li><a class="flecs" href="">
+                    <span>COMMUNITY</span>
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </a>
+                </li>
+                <li><a class="flecs" href="">
+                    <span>ABOUT</span>
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                   </a>
+                </li>
+                <li><a class="flecs" href="">
+                    <span>STORE </span>
+                  <i class="fa-sharp fa-solid fa-caret-down"></i>
+                   </a>
+                </li>
+                <li><a class="flecs" href="">
+                    <span>MEMBERSHIP</span>
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                  </a>
+                </li>
+            </ul>
+    
+            <div id="menu-controls">
+                <div class="signin">
+                    <span class="hi-text">Hi! Sign in</span>
+                    <span>MY FITNESS</span>
+                </div>
+                <div class="search">
+                    <a href="">
+                        <span>
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="shop">
+                    <a href="">
+                        <span>
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i> 
+                        </span>
+                    </a>
+                </div>
+    
+            </div>
         </div>
         
     </header>
     <!-- discription bar -->
-
+    <div class="content">
     <!-- join banner -->
     <div id="join-banner">
         <div id="joinquote" >
@@ -132,10 +111,10 @@
 
     <!-- fb plus pases    -->
     <div class="fb-pass">
-        <h2>Introducing 
+        <h2 class="highlight-h2">Introducing 
             <br>
             <span id="fb">FB</span> <span id="plus">Plus</span> Passes</h2>
-        <p>Passes give you full access to everything FB Plus has to offer,
+        <p class="highlight-p">Passes give you full access to everything FB Plus has to offer,
              without a long-term subscription,
              Choose a pass that fits your budget and your schedule.</p>
         <div>
@@ -150,29 +129,29 @@
     <!-- mid cards -->
     <div id="mid-cards">
         <div>
-            <h2>Workout Videos</h2>
-            <p>Exercise with certified personal trainers whether you're
+            <h2 class="highlight-h2">Workout Videos</h2>
+            <p class="highlight-p">Exercise with certified personal trainers whether you're
                 at home or on the road</p>
             <a href="">Find a Workout </a>
             <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/workouts-720.webp" alt="">
         </div>
         <div>
-            <h2>Programs</h2>
-            <p>Professionally designed programs take the guesswork
+            <h2 class="highlight-h2">Programs</h2>
+            <p class="highlight-phighlight-p">Professionally designed programs take the guesswork
                 out of exercising.
                 </p>
             <a href="">Browse All Programs</a>
             <img src="	https://cloudfront.fitnessblender.com/assets/img/homepage/programs-720.webp" alt="">
         </div>
         <div id="mid-black">
-            <h2>Wellness Articles</h2>
-            <p>Research-backed articles to help you care for your body and mind.</p>
+            <h2 class="highlight-h2">Wellness Articles</h2>
+            <p class="highlight-p">Research-backed articles to help you care for your body and mind.</p>
             <a href="">Learn from Experts</a>
             <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/articles-720.webp" alt="">
         </div>
         <div >
-            <h2>Healthy Recipes</h2>
-            <p>Fuel your day with recipes by Registered Dietitians and professional chefs.</p>
+            <h2 class="highlight-h2">Healthy Recipes</h2>
+            <p class="highlight-p">Fuel your day with recipes by Registered Dietitians and professional chefs.</p>
             <a href="">Find a Recipe</a>
             <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/recipes-720.webp" alt="">
         </div>
@@ -181,13 +160,284 @@
     </div>
     <!-- mid supportive box -->
     <div class="mid-support">
-        <h2>Supportive Community</h2>
-        <p>Stay motivated and engaged with a little help from a supportive
+        <h2 class="highlight-h2">Supportive Community</h2>
+        <p class="highlight-p">Stay motivated and engaged with a little help from a supportive
             community of other members.
             </p>
         <a id="mida" href="">Become a Member</a>
         <img src="	https://cloudfront.fitnessblender.com/assets/img/homepage/community-2160.webp" alt="">
 
+    </div>
+
+    <!-- bottom cards -->
+    <section class="bottom-cards-section">
+        <div class="bottom-cards-box">
+            <h2 class="bottom-heading">
+                Not sure where to start?
+            </h2>
+            <p class="bottom-para">
+                Programs offer day-to-day guidance on an interactive calendar to keep you on track.
+            </p>
+            <div class="bottom-cards">
+                <div class="card">
+                    <h2 class="catogary">Perfect for Beginners</h2>
+                   <div class="containt-items">
+                    <a class="contents" href="">
+                    <div class="exclusive-item">FB Plus</div>
+                        <div class="content-info">
+                            <div class="content-thumnail">
+                                <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_31_fb-low-impact-round-2-fat-loss-program-40-minutes-or-less.jpg" alt="">
+                            </div>
+                            <div class="content-details">
+                                <span class="eyebrow">
+                                    4 Week Program
+                                     - 34 Min/Day</span>
+                                     <h3 class="">
+                                        FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
+                                                </h3>
+                            </div>
+                            <div class="content-action">
+                                <span class="price">
+                                    $14.99
+                                </span>
+                            </div>
+
+                        </div>
+                    </a>
+                    <div></div>
+                   </div>
+                </div>
+                <div class="card">
+                    <h2 class="catogary">Perfect for Beginners</h2>
+                    <div class="containt-items">
+                     <a class="contents" href="">
+                     <div class="exclusive-item">FB Plus</div>
+                         <div class="content-info">
+                             <div class="content-thumnail">
+                                 <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_29_4-week-fb-blend-burn-fat-build-muscle-tone-35-or-55-minutes-a-day.jpg" alt="">
+                             </div>
+                             <div class="content-details">
+                                 <span class="eyebrow">
+                                     4 Week Program
+                                      - 34 Min/Day</span>
+                                      <h3 class="">
+                                         FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
+                                                 </h3>
+                             </div>
+                             <div class="content-action">
+                                 <span class="price">
+                                     $14.99
+                                 </span>
+                             </div>
+ 
+                         </div>
+                     </a>
+                     <div></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="catogary">Perfect for Beginners</h2>
+                    <div class="containt-items">
+                     <a class="contents" href="">
+                     <div class="exclusive-item">FB Plus</div>
+                         <div class="content-info">
+                             <div class="content-thumnail">
+                                 <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_28_fb-30-4-week-fat-loss-program-for-busy-people-round-4.jpg" alt="">
+                             </div>
+                             <div class="content-details">
+                                 <span class="eyebrow">
+                                     4 Week Program
+                                      - 34 Min/Day</span>
+                                      <h3 class="">
+                                         FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
+                                                 </h3>
+                             </div>
+                             <div class="content-action">
+                                 <span class="price">
+                                     $14.99
+                                 </span>
+                             </div>
+ 
+                         </div>
+                     </a>
+                     <div></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="catogary">Perfect for Beginners</h2>
+                    <div class="containt-items">
+                     <a class="contents" href="">
+                     <div class="exclusive-item">FB Plus</div>
+                         <div class="content-info">
+                             <div class="content-thumnail">
+                                 <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_7_fb-bodyweight-bodyweight-only-fat-loss-program.jpg" alt="">
+                             </div>
+                             <div class="content-details">
+                                 <span class="eyebrow">
+                                     4 Week Program
+                                      - 34 Min/Day</span>
+                                      <h3 class="">
+                                         FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
+                                                 </h3>
+                             </div>
+                             <div class="content-action">
+                                 <span class="price">
+                                     $14.99
+                                 </span>
+                             </div>
+ 
+                         </div>
+                     </a>
+                     <div></div>
+                    </div>
+                </div>
+                <p class="all-programs">
+                    <a href="">
+                        View&nbsp;All
+                        <span class="catogary"> Programs</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- footer  -->
+    <footer id="footer" class="footer_site">
+        <div class="container">
+            <h2 id="dark">
+                <a id="anch" href="">Fitness Blender</a>
+                <p>WORKOUT COMPLETE
+                    <sup>™</sup>
+                </p>
+            </h2>
+            <div class="footer_nav">
+                <ul class="fut_ul">
+                    <li>
+                        <a href="">WORKOUT</a>
+                    </li>
+                    <li>
+                        <a href="">WORKOUT VIDEOS</a>
+                    </li>
+                    <li>
+                        <a href="">CUSTOME WORKOUTS</a>
+                    </li>
+                    <li>
+                        <a href="">PROGRAMS</a>
+                    </li>
+                    <li>
+                        <a href="">WORKOUTS PROGRAMS</a>
+                    </li>
+                    <li>
+                        <a href="">MEAL PLANS</a>
+                    </li>
+                    <li>
+                        <a href="">PILOT PROGRAMS</a>
+                    </li>
+                    <li>
+                        <a href="">ROUTINES</a>
+                    </li>
+                </ul>
+                <ul class="fut_ul">
+                    <li>
+                        <a href="">HEALTHY LIVING</a>
+                    </li>
+                    <li>
+                        <a href="">FITNESS</a>
+                    </li>
+                    <li>
+                        <a href="">HEALTH</a>
+                    </li>
+                    <li>
+                        <a href="">NUTRITION</a>
+                    </li>
+                    <li>
+                        <a href="">HEALTHY RECIPES</a>
+                    </li>
+                    <li>
+                        <a href="">EXPERTS</a>
+                    </li>
+                </ul>
+                <ul class="fut_ul">
+                    <li>
+                        <a href="">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="">CAREERS</a>
+                    </li>
+                    <li>
+                        <a href="">TUTORIALS</a>
+                    </li>
+                    <li>
+                        <a href="">OUR TEAM</a>
+                    </li>
+                    <li>
+                        <a href="">B2B OPTIONS</a>
+                    </li>
+                </ul>
+                <ul class="fut_ul">
+                    <li>
+                        <a href="">MEMBERSHIP</a>
+                    </li>
+                    <li>
+                        <a href="">FB PLUS</a>
+                    </li>
+                    <li>
+                        <a href="">COMMUNITY</a>
+                    </li>
+                    <li>
+                        <a href="">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a href="">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="">STORE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="end">
+                <p>
+                    Copyright © 2022 Fitness Blender. All rights reserved.
+                    <a class="anch" href="">Terms of Use</a>
+                    <a class="anch" href="">Privacy Policy</a>
+                </p>
+                <ul class="end_smicons">
+                    <li>
+                        <a class="anch" href="https://www.youtube.com/user/FitnessBlender">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                       
+                    </li>
+                    <li>
+                        <a class="anch" href="https://www.pinterest.com/FitnessBlender/">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anch" href="https://www.facebook.com/pages/FitnessBlendercom/151085874942542">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anch" href="https://www.instagram.com/fitnessblender/">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anch" href="https://twitter.com/FitnessBlender">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
     </div>
 </body>
 </html>
