@@ -1,13 +1,1 @@
-day3
-.bottom-heading{
-  text-align: start;
- }
- .bottom-cards{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: 300px;
- }
- .card{
-    border: 1px solid blue;
- }
-
+day4
