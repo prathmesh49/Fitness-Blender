@@ -1,0 +1,35 @@
+#fb{
+    color: #212432;
+    font-weight: bolder;
+  }
+  #plus{
+    color: #4296cb;
+    font-weight: bolder;
+
+  }
+  .pixel{
+    width: 100%;
+  }
+  .membership{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,500px);
+    gap: 40px;
+  }
+  .padd{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .spacing1{
+    width: 90%;
+  }
+  .buy-pass{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: max-content;
+    padding: 0;
+    margin: 0;
+  }
+  .pixel2{
+    width: 120%;
+  }
