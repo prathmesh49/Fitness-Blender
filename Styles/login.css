@@ -1,8 +1,92 @@
-.large{
+.-large{
     margin: 3px 3px 3px 4px;
     padding: initial;
     border: initial;
     background-color: initial;
     cursor: default;
     appearance: auto;
+    font-size: 40px;
+}
+.content{
+    width: 30%;
+    height: 800px;
+    margin: auto;
+    padding: 40px;
+}
+.heding{
+    font-weight: 100;
+    text-align: center;
+}
+.login-block{
+    margin-top: 100px;
+}
+.btn-pair{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: max-content;
+    gap: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.btn{
+    display: flex;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 3px;
+    
+}
+.-fbook{
+    background-color: #3f66b6;
+}
+.-google{
+    background-color: #db4a3c;
+}
+.block{
+    text-align: center;
+}
+.fbook-icon{
+    width: 20%;
+}
+.ftext{
+    width: 80%;
+    text-align: center;
+}
+/* login divider */
+.login-divider{
+    width: max-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 10px;
+    color: gray;
+}
+/* login form */
+.login-narrow{
+    width: 100%;
+}
+.form-grp>input{
+    height: 30px;
+    width: 80%;
+    font-size: large;
+    margin-top: 40px;
+}
+.form-grp{
+    text-align: center;
+}
+.input{
+    border: 0;
+}
+.checkbox{
+    margin-top: 40px;
+}
+.form-action{
+    margin-top: 49px;
+   display: grid;
+   justify-content: center;
+}
+.btn-submit{
+    background-color: #4296cb;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }

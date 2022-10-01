@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./Styles/navbar.css">
     <link rel="stylesheet" href="./Styles/index.css">
     <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/media-queries.css">
     <script src="./Scripts/index.js"></script>
 </head>
 <body>
@@ -71,12 +72,23 @@
             </ul>
     
             <div id="menu-controls">
-                <div id="signin" onmouseover="myfun()">
+                <div id="signin" class="active">
+                    
                     <span class="hi-text">Hi! Sign in</span>
                     <span>MY FITNESS
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
 
                     </span>
+                    <div class="menu-signin">
+                        <div class="menu-sign-block">
+                            <ul>
+                                <li>JOIN FOR FREE!</li>
+                                <li><p>Join for free and start building and tracking your workouts, get support from other Fitness Blender members and more!</p></li>
+                                <li><a href="./join.html"><button class="btn-join">Join</button></a></li>
+                                <li><a href="./login.html"><button class="btn-in">Sign In</button></a></li>
+                            </ul>
+                        </div>
+                    </div>
 
                 </div>
                 <div class="search">
@@ -205,7 +217,7 @@
                                 <span class="eyebrow">
                                     4 Week Program
                                      - 34 Min/Day</span>
-                                     <h3 class="">
+                                     <h3 class="eye">
                                         FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
                                                 </h3>
                             </div>
@@ -224,7 +236,6 @@
                     <h2 class="catogary">Perfect for Beginners</h2>
                     <div class="containt-items">
                      <a class="contents" href="">
-                     <div class="exclusive-item">FB Plus</div>
                          <div class="content-info">
                              <div class="content-thumnail">
                                  <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_29_4-week-fb-blend-burn-fat-build-muscle-tone-35-or-55-minutes-a-day.jpg" alt="">
@@ -233,7 +244,7 @@
                                  <span class="eyebrow">
                                      4 Week Program
                                       - 34 Min/Day</span>
-                                      <h3 class="">
+                                      <h3 class="eye">
                                          FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
                                                  </h3>
                              </div>
@@ -252,7 +263,6 @@
                     <h2 class="catogary">Perfect for Beginners</h2>
                     <div class="containt-items">
                      <a class="contents" href="">
-                     <div class="exclusive-item">FB Plus</div>
                          <div class="content-info">
                              <div class="content-thumnail">
                                  <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_28_fb-30-4-week-fat-loss-program-for-busy-people-round-4.jpg" alt="">
@@ -261,7 +271,7 @@
                                  <span class="eyebrow">
                                      4 Week Program
                                       - 34 Min/Day</span>
-                                      <h3 class="">
+                                      <h3 class="eye">
                                          FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
                                                  </h3>
                              </div>
@@ -280,7 +290,6 @@
                     <h2 class="catogary">Perfect for Beginners</h2>
                     <div class="containt-items">
                      <a class="contents" href="">
-                     <div class="exclusive-item">FB Plus</div>
                          <div class="content-info">
                              <div class="content-thumnail">
                                  <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_7_fb-bodyweight-bodyweight-only-fat-loss-program.jpg" alt="">
@@ -289,7 +298,7 @@
                                  <span class="eyebrow">
                                      4 Week Program
                                       - 34 Min/Day</span>
-                                      <h3 class="">
+                                      <h3 class="eye">
                                          FB Low Impact Round 2 - Build Muscle &amp; Burn Fat - 40 Minutes or Less
                                                  </h3>
                              </div>
@@ -320,7 +329,7 @@
         <div class="container">
             <h2 id="dark">
                 <a id="anch" href="">Fitness Blender</a>
-                <p>WORKOUT COMPLETE
+                <p class="brand-para">WORKOUT COMPLETE
                     <sup>™</sup>
                 </p>
             </h2>
@@ -413,13 +422,17 @@
                 </ul>
             </div>
         </div>
-        <div class="container">
+        <hr>
+        <div class="container2">
             <div class="end">
-                <p>
-                    Copyright © 2022 Fitness Blender. All rights reserved.
-                    <a class="anch" href="">Terms of Use</a>
-                    <a class="anch" href="">Privacy Policy</a>
-                </p>
+                <div class="left">
+                    <p>
+                        Copyright © 2022 Fitness Blender. All rights reserved.
+                        <a class="anch" href="">Terms of Use</a>
+                        <a class="anch" href="">Privacy Policy</a>
+                    </p>
+                </div>
+               <div class="right">
                 <ul class="end_smicons">
                     <li>
                         <a class="anch" href="https://www.youtube.com/user/FitnessBlender">
@@ -448,6 +461,7 @@
                         </a>
                     </li>
                 </ul>
+               </div>
             </div>
         </div>
 
