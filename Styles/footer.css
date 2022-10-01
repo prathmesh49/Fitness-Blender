@@ -4,6 +4,7 @@
     padding-right: 200px;
     background-color: #212432;
     color: white;
+    height: 600px;
 }
 #dark #anch{
     
@@ -19,25 +20,46 @@
 }
 .container{
     display: flex;
-    height: max-content;
+    justify-content: space-between;
+    height: 500px;
 }
 .footer_nav>ul>li>a{
     color: #fff;
+    font-weight: 100;
    
+}
+.footer_nav a{
+    font-weight: 100;
+
 }
 .fut_ul{
     /* vertical-align: middle; */
     display: block;
-    line-height: 30px;
+    
+    line-height: 40px;
 
 }
 .footer_nav{
     display: flex;
+    font-size: 14px;
+    
 }
 .anch{
     color: #fff;
 }
+
+.brand-para{
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
 .end{
     display: flex;
     justify-content: space-between;
+    align-self: end;
+}
+hr{
+    border: 0;
+    background-color: #fff;
+    height: 1px;
 }

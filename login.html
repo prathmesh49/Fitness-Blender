@@ -30,42 +30,63 @@
                     
                 </li>
                 <li><a class="flecs" href="">
-                    <span>PROGRAMS</span>
+                    <span>PROGRAMS 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                    </span>
 
                 </a>
                 </li>
                 <li><a class="flecs" href="">
-                    <span>HEALTHY LIVING</span>
+                    <span>HEALTHY LIVING 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                    </span>
                 </a>
                 </li>
                 <li><a class="flecs" href="">
-                    <span>COMMUNITY</span>
+                    <span>COMMUNITY 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                    </span>
                 </a>
                 </li>
                 <li><a class="flecs" href="">
-                    <span>ABOUT</span>
+                    <span>ABOUT 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                    </span>
                    </a>
                 </li>
                 <li><a class="flecs" href="">
                     <span>STORE </span>
-                  <i class="fa-sharp fa-solid fa-caret-down"></i>
                    </a>
                 </li>
                 <li><a class="flecs" href="./join.html">
-                    <span>MEMBERSHIP</span>
-                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                    <span>MEMBERSHIP </span>
                   </a>
                 </li>
             </ul>
     
             <div id="menu-controls">
-                <div class="signin" onmouseover="myfun()">
+                <div id="signin" class="active">
+                    
                     <span class="hi-text">Hi! Sign in</span>
-                    <span>MY FITNESS</span>
+                    <span>MY FITNESS
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                    </span>
+                    <div class="menu-signin">
+                        <div class="menu-sign-block">
+                            <ul>
+                                <li>JOIN FOR FREE!</li>
+                                <li><p>Join for free and start building and tracking your workouts, get support from other Fitness Blender members and more!</p></li>
+                                <li><a href="./join.html"><button class="btn-join">Join</button></a></li>
+                                <li><a href="./login.html"><button class="btn-in">Sign In</button></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="search">
                     <a href="">
@@ -98,14 +119,15 @@
                         <span class="fbook-icon">
                             <i class="fa-brands fa-facebook-f"></i>
                             </span>
-                        Facebook
-                    </a>
+                            <span class="ftext">Facebook</span>
+                        </a>
                     <a href="" class="btn -google block">
                         <span class="ggle-icon">
                         <i class="fa-brands fa-google"></i>
 
                         </span>
-                        Google
+                        <span class="ftext">Google</span>
+
                     </a>
                 </div>
             </div>
@@ -116,10 +138,10 @@
             <div class="login-narrow">
                 <form action="" class="login-form">
                     <div class="form-grp">
-                        <input type="text" id="username" placeholder="Username">
+                        <input type="text" class="input" id="username" placeholder="Username">
                     </div>
                     <div class="form-grp">
-                        <input type="password" id="password" placeholder="Password">
+                        <input type="password" class="input" id="password" placeholder="Password">
                     </div>
                     <div class="checkbox">
                         <input type="checkbox" name="remember" class="large" id="remember">
@@ -157,7 +179,7 @@
             <div class="container">
                 <h2 id="dark">
                     <a id="anch" href="">Fitness Blender</a>
-                    <p>WORKOUT COMPLETE
+                    <p class="brand-para">WORKOUT COMPLETE
                         <sup>™</sup>
                     </p>
                 </h2>
@@ -250,13 +272,17 @@
                     </ul>
                 </div>
             </div>
-            <div class="container">
+            <hr>
+            <div class="container2">
                 <div class="end">
-                    <p>
-                        Copyright © 2022 Fitness Blender. All rights reserved.
-                        <a class="anch" href="">Terms of Use</a>
-                        <a class="anch" href="">Privacy Policy</a>
-                    </p>
+                    <div class="left">
+                        <p>
+                            Copyright © 2022 Fitness Blender. All rights reserved.
+                            <a class="anch" href="">Terms of Use</a>
+                            <a class="anch" href="">Privacy Policy</a>
+                        </p>
+                    </div>
+                   <div class="right">
                     <ul class="end_smicons">
                         <li>
                             <a class="anch" href="https://www.youtube.com/user/FitnessBlender">
@@ -285,6 +311,7 @@
                             </a>
                         </li>
                     </ul>
+                   </div>
                 </div>
             </div>
     
