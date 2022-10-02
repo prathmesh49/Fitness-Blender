@@ -1,6 +1,332 @@
 /* -----------media - queries--((medium size))-------- */
-@media all and (min-width:551px) and (max-width:720px){
+@media all and (min-width:551px) and (max-width:1120px){
+
+    /* navbar */
+    body{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .sticky{
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    .nav_bar{
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        margin: 0px;
+        padding-left: 10px;
+
+        color: #fff;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    #navbar{
+       
+        height: 80px;
+        position: sticky;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        color: #fff;
 
 
+    }
+    .nav_list{
+        flex-direction: column;
+        color: #fff;
+
+    }
     
+    #menu-controls{
+        width: max-content;
+        margin: auto;
+        color: #fff;
+
+        
+    }
+   
+    .menu-sign-block>ul{
+        text-align: left;
+        padding-left: 10px;
+        line-height: 15px;
+        color: #fff;
+
+    }
+    .menu-sign-block>ul>li{
+        margin-top: 0px;
+        color: #fff;
+
+        margin-bottom: 20px;
+    }
+    .menu-signin{
+        display: none;
+        background-color: #212432;
+        color: #fff;
+        margin-top: 32px;
+        width: 400px;
+        height: 300px;
+    }
+    #signin:hover .menu-signin{
+        display: block;
+        position: absolute;
+    }
+    #signin:hover .menu-sign-block>ul{
+        display: block;
+    }
+    
+    .colo{
+        color: #fff;
+
+    }
+    
+    .content{
+        padding: 0px;
+        margin: 0px;
+    }
+    .sticky + .content{
+        padding-top: 0px;
+    }
+    .burgerNav {
+        width: 250px;
+        height: 500px;
+        align-self: end;
+        background-color: #212432;
+        right: 0px;
+        top: 0px;
+        color: #fff;
+        padding-top: 100px;
+    }
+    .disBlck{
+        display: block;
+
+    }
+    .vClass{
+        display: none;
+    }
+    /* end navbar */
+   
+
+    /* content start*/
+    #join-banner{
+        padding: 50px;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .highlight-p{
+        width: 60%;
+    }
+    #fb-img{
+        width: 80%;
+    }
+
+    #mid-cards{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .bottom-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: max-content;
+        gap: 10px;
+       }
+
+
+    /* end content----------- */
+
+    /* footer start------ */
+
+    #footer{
+        padding: 50px;
+    }
+    .brand-para{
+        font-size: 8px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    .fut_ul{
+        display: block;
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 100;
+    }
+    .left{
+        font-size: 10px;
+    }
 }
+
+/* small size media queries */
+ @media all and (min-width: 320px) and (max-width: 550px){
+    body{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .sticky{
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    .nav_bar{
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        margin: 0px;
+        padding-left: 10px;
+
+        color: #fff;
+
+        display: flex;
+        justify-content: space-between;
+    }
+    #navbar{
+       
+        height: 80px;
+        position: sticky;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        color: #fff;
+
+
+    }
+    .nav_list{
+        flex-direction: column;
+        color: #fff;
+
+    }
+    
+    #menu-controls{
+        width: max-content;
+        margin: auto;
+        color: #fff;
+
+        
+    }
+   
+    .menu-sign-block>ul{
+        text-align: left;
+        padding-left: 10px;
+        line-height: 15px;
+        color: #fff;
+
+    }
+    .menu-sign-block>ul>li{
+        margin-top: 0px;
+        color: #fff;
+
+        margin-bottom: 20px;
+    }
+    .menu-signin{
+        display: none;
+        background-color: #212432;
+        color: #fff;
+        margin-top: 32px;
+        width: 400px;
+        height: 300px;
+    }
+    #signin:hover .menu-signin{
+        display: block;
+        position: absolute;
+    }
+    #signin:hover .menu-sign-block>ul{
+        display: block;
+    }
+    
+    .colo{
+        color: #fff;
+
+    }
+    
+    .content{
+        padding: 0px;
+        margin: 0px;
+    }
+    .sticky + .content{
+        padding-top: 0px;
+    }
+    .burgerNav {
+        width: 250px;
+        height: 500px;
+        align-self: end;
+        background-color: #212432;
+        right: 0px;
+        top: 0px;
+        color: #fff;
+        padding-top: 100px;
+    }
+    .disBlck{
+        display: block;
+
+    }
+    .vClass{
+        display: none;
+    }
+    /* end navbar */
+   
+
+    /* content start*/
+    #join-banner{
+        padding: 50px;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .highlight-p{
+        width: 60%;
+    }
+    #fb-img{
+        width: 80%;
+    }
+
+    #mid-cards{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .bottom-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: max-content;
+        gap: 10px;
+       }
+
+
+    /* end content----------- */
+
+    /* footer start------ */
+
+    #footer{
+        display: block;
+        padding: 50px;
+        height: max-content;
+    }
+    .brand-para{
+        font-size: 8px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    .fut_ul>li{
+        display: block;
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 100;
+    }
+    .left{
+        font-size: 10px;
+    }
+    .container{
+        display: block;
+        height: max-content;
+    }
+    .footer_nav{
+        display: block;
+        
+    }
+    .end{
+        /* flex-direction: row-reverse; */
+        display: block;
+    }
+}
+ 

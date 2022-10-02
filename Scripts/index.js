@@ -15,6 +15,10 @@ function myFunction() {
 })
 
 
-function myfun(){
-    console.log("dlfjs")
-}
+let burger = document.querySelector(".burger")
+let burgerNav = document.querySelector(".burgerNav")
+
+burger.addEventListener("click", ()=>{
+  burgerNav.classList.toggle("vClass")
+  burger.classList.toggle("vbur")
+})

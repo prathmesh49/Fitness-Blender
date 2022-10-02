@@ -10,21 +10,21 @@
     <link rel="stylesheet" href="./Styles/index.css">
     <link rel="stylesheet" href="./Styles/footer.css">
     <link rel="stylesheet" href="./Styles/media-queries.css">
-    <script src="./Scripts/index.js"></script>
 </head>
 <body>
    
     <!-- navigation bar  -->
-    <header id="navbar" class="sticky">
+    <header id="navbar" class="sticky ">
         <div class="nav_bar">
             <div id="brand">
                 <h1>
                     <a href="./index.html">fitness blender</a>
                 </h1>
             </div>
-            <ul class="nav_list">
+            <div class="burgerNav vClass disBlck">
+            <ul class="nav_list ">
                 <li><a class="flecs" href="">
-                    <span>WORKOUT 
+                    <span class="colo">WORKOUT 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
 
                     </span>
@@ -33,7 +33,7 @@
                     
                 </li>
                 <li><a class="flecs" href="">
-                    <span>PROGRAMS 
+                    <span class="colo">PROGRAMS 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
 
                     </span>
@@ -41,45 +41,45 @@
                 </a>
                 </li>
                 <li><a class="flecs" href="">
-                    <span>HEALTHY LIVING 
+                    <span class="colo">HEALTHY LIVING 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
 
                     </span>
                 </a>
                 </li>
                 <li><a class="flecs" href="">
-                    <span>COMMUNITY 
+                    <span class="colo">COMMUNITY 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
 
                     </span>
                 </a>
                 </li>
                 <li><a class="flecs" href="">
-                    <span>ABOUT 
+                    <span class="colo">ABOUT 
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
 
                     </span>
                    </a>
                 </li>
                 <li><a class="flecs" href="">
-                    <span>STORE </span>
+                    <span class="colo">STORE </span>
                    </a>
                 </li>
                 <li><a class="flecs" href="./join.html">
-                    <span>MEMBERSHIP </span>
+                    <span class="colo">MEMBERSHIP </span>
                   </a>
                 </li>
             </ul>
     
-            <div id="menu-controls">
-                <div id="signin" class="active">
+            <div id="menu-controls" class="disBlck">
+                <div id="signin" class="active disBlck">
                     
                     <span class="hi-text">Hi! Sign in</span>
-                    <span>MY FITNESS
+                    <span class="colo">MY FITNESS
                     <i class="fa-sharp fa-solid fa-caret-down"></i>
 
                     </span>
-                    <div class="menu-signin">
+                    <div class="menu-signin ">
                         <div class="menu-sign-block">
                             <ul>
                                 <li>JOIN FOR FREE!</li>
@@ -91,16 +91,16 @@
                     </div>
 
                 </div>
-                <div class="search">
+                <div class="search disBlck">
                     <a href="">
-                        <span>
+                        <span class="colo">
                             <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
                         </span>
                     </a>
                 </div>
-                <div class="shop">
+                <div class="shop disBlck">
                     <a href="">
-                        <span>
+                        <span class="colo"> 
                             <i class="fa-sharp fa-solid fa-bag-shopping"></i> 
                         </span>
                     </a>
@@ -108,7 +108,12 @@
     
             </div>
         </div>
-        
+        <div class="burger vbur disBlck">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
     </header>
     <!-- discription bar -->
     <div class="content">
@@ -145,8 +150,8 @@
         <div>
             <button class="button-26">BUY A PASS</button>
         </div>
-        <div>
-        <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/passes-720.webp" alt="">
+        <div id="fb-img">
+        <img  src="https://cloudfront.fitnessblender.com/assets/img/homepage/passes-720.webp" alt="">
 
         </div>
     </div>
@@ -208,7 +213,6 @@
                     <h2 class="catogary">Perfect for Beginners</h2>
                    <div class="containt-items">
                     <a class="contents" href="">
-                    <div class="exclusive-item">FB Plus</div>
                         <div class="content-info">
                             <div class="content-thumnail">
                                 <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_31_fb-low-impact-round-2-fat-loss-program-40-minutes-or-less.jpg" alt="">
@@ -466,6 +470,7 @@
         </div>
 
     </footer>
+    <script src="./Scripts/index.js"></script>
     
 </body>
 </html>

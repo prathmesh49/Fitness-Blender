@@ -18,7 +18,7 @@
     padding-left: 200px;
     padding-right: 200px;
     display: grid;
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: repeat(2,1fr);
     gap: 20px;
     align-items: center;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
@@ -154,9 +154,7 @@ img{
 
  /* bottom cards section   */
 
- .bottom-cards-section{
-  
- }
+
  .bottom-cards-box{
   width: 80%;
   height: max-content;
@@ -172,8 +170,7 @@ img{
  }
  .exclusive-item{
   position: absolute;
-  /* top: 0;
-  right: 0; */
+ 
   background: #3cdbb8;
   color: #ffffff;
   font-weight: bold;
